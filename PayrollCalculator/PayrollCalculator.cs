@@ -16,6 +16,7 @@ namespace PayrollCalculator
             string userName = Console.ReadLine();
             //We are going to declare a few more variables now and we will initialize them later
 
+            //Create an instance of the Calcs class
             Calcs calcs = new Calcs();
             // Get Gross Pay
             decimal grossPay = calcs.GetGross(userName);
